@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--Header-->
+<head>
+<link id="pagestyle" rel="stylesheet" href="stylesheets/light_mode.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<title>Dr. Jeffrey's Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<script src="main.js"></script>
+
+<!-- Body -->
+<body onload="checkCookie()">
+
+<!-- Navbar -->
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="contact.html">Contact Me</a></li>
+  <li><a href="friends_in_the_field.html">Friends in the Field</a></li>
+</ul>
+
+<!-- Page title -->
+<h1>Contact Me</h1>
+
+<!-- Mailto button -->
+<form action="mailto:jjones@google.com" method="GET">
+    <input type="submit" value="Email Me!" />
+</form>
+
+<!-- Socials header -->
+<h2>Socials</h2>
+
+<div class="socials">
+<!-- link to Twitter -->
+
+<!-- I tried to put the social icons into their own folder but for some reason when I did that the
+images wouldn't load because of them being blocked by the client.
+-->
+
+<a href="https://twitter.com/jeffreyjones" target="_blank">
+<img src="images/twitter.png" width="50px" height="50px" alt="Link to my twitter">
+</a>
+
+<!-- link to Linkedin -->
+<a href="https://linkedin.com/jeffreyjones" target="_blank">
+<img src="images/linkedin.png" width="50px" height="50px" alt="Link to my Linkedin">
+</a>
+</div>
+
+<br>
+<button type="button" onclick="switch_mode()">Light/Dark Mode</button>
+</body>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!-- Header -->
+<head>
+<link id="pagestyle" rel="stylesheet" href="stylesheets/light_mode.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<title>Dr. Jeffrey's Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<script src="main.js"></script>
+
+<!-- Body -->
+<body onload="checkCookie()">
+
+<!-- Navbar -->
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="contact.html">Contact Me</a></li>
+  <li><a href="friends_in_the_field.html">Friends in the Field</a></li>
+</ul>
+
+<!-- Page title -->
+<h1>Resume</h1>
+
+<!-- Embed of Resume PDF -->
+<embed src="JeffreyJonesResume.pdf" width="100%" height="500px" />
+
+<br>
+<button type="button" onclick="switch_mode()">Light/Dark Mode</button>
+</body>
